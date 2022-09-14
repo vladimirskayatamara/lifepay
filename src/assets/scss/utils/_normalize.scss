@@ -61,7 +61,10 @@
 
   span {
     color: $orange;
+
+    @media screen and (max-width: $desktopWidth) {
+      width: 100%;
+      display: block;
+    }
   }
 }
-
-
