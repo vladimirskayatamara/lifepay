@@ -1,0 +1,67 @@
+._btn {
+  background-color: $yellow;
+  color: $thirdFontColor;
+  @include flex-all-center;
+  width: 294px;
+  height: 64px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 1px;
+}
+
+._sm-btn {
+  height: 54px;
+}
+
+._md-btn {
+  height: 62.27px;
+}
+
+.wrapper {
+  max-width: 1208px;
+  margin: 0 auto;
+
+  @media screen and (max-width: $desktopWidth) {
+    margin: 0 12px 0 20px;
+    @include flex-col;
+  }
+}
+
+._title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 126%;
+  color: $blue;
+  margin-bottom: 17.47px;
+
+  @media screen and (max-width: $desktopWidth) {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  span {
+    color: $orange;
+  }
+}
+
+._sub-title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 130%;
+  text-align: center;
+
+  @media screen and (max-width: $desktopWidth) {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  span {
+    color: $orange;
+  }
+}
+
+
